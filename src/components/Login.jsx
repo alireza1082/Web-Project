@@ -1,5 +1,7 @@
 import React from "react";
 import styled from "styled-components";
+import logo from '../images/Spotify_Logo_farsi.png';
+
 
 export default function Login() {
   const handleClick = async () => {
@@ -22,10 +24,10 @@ export default function Login() {
   return (
     <Container>
       <img
-        src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_Black.png"
+        src={logo}
         alt="spotify"
       />
-      <button onClick={handleClick}>Connect Spotify</button>
+      <button onClick={handleClick}>اتصال به اسپاتیفای</button>
     </Container>
   );
 }
@@ -48,6 +50,7 @@ const Container = styled.div`
     background-color: black;
     color: #49f585;
     border: none;
+    font-family: vazir;
     font-size: 1.4rem;
     cursor: pointer;
   }
