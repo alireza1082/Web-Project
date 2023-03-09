@@ -3,28 +3,30 @@ import styled from "styled-components";
 import { MdHomeFilled, MdSearch } from "react-icons/md";
 import { IoLibrary } from "react-icons/io5";
 import Playlists from "./Playlists";
+import logo2 from '../images/Spotify_Logo_farsi_white.png';
+
 export default function Sidebar() {
   return (
     <Container>
       <div className="top__links">
         <div className="logo">
           <img
-            src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_White.png"
+            src={logo2}
             alt="spotify"
           />
         </div>
         <ul>
           <li>
             <MdHomeFilled />
-            <span>Home</span>
+            <span>خانه</span>
           </li>
           <li>
             <MdSearch />
-            <span>Search</span>
+            <span>جستجو</span>
           </li>
           <li>
             <IoLibrary />
-            <span>Your Library</span>
+            <span>کتابخانه شما</span>
           </li>
         </ul>
       </div>
