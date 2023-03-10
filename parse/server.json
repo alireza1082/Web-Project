@@ -1,7 +1,6 @@
 {
     "appId": "WEB_PROJECT_APP",
     "masterKey": "mySecretMasterKey",
-    "databaseURI": "mongodb://localhost/test",
-    "parseAPIPrefix": "/parse",
+    "databaseURI": "mongodb://localhost/webProject",
     "port": 1337
   }
