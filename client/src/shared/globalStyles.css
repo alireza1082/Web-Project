@@ -1,0 +1,16 @@
+.screen-container {
+  width: calc(100% - 100px);
+  height: 97%;
+  margin: 15px;
+  border-radius: 30px;
+  background-color: #282828;
+  opacity: 1;
+  /* background: linear-gradient(270deg, #17171b, #234f64, #0dd08e);
+  background: linear-gradient(90deg, #17171b, #234f64, #0dd08e); */
+  /* background: linear-gradient(90deg, #17171b, #0dd08e); */
+  /* background: linear-gradient(90deg, #3e371e55, #0dd08e); */
+}
+
+.flex {
+  display: flex;
+}
